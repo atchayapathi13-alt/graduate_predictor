@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+  <defs>
+    <linearGradient id="capGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#4f46e5" />
+    </linearGradient>
+    <linearGradient id="chartGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="100%" stop-color="#10b981" />
+    </linearGradient>
+  </defs>
+  <!-- Graduation Cap -->
+  <path d="M24 6 L42 16 L24 26 L6 16 Z" fill="url(#capGrad)" />
+  <path d="M14 21.5 L14 30 C14 35 34 35 34 30 L34 21.5" fill="none" stroke="url(#capGrad)" stroke-width="3" stroke-linecap="round" />
+  <circle cx="42" cy="24" r="2.5" fill="#f59e0b" />
+  <line x1="42" y1="16" x2="42" y2="24" stroke="#f59e0b" stroke-width="2" />
+  <!-- Analytical Graph Node -->
+  <circle cx="24" cy="40" r="3" fill="url(#chartGrad)" />
+  <circle cx="16" cy="42" r="2" fill="url(#chartGrad)" />
+  <circle cx="32" cy="41" r="2" fill="url(#chartGrad)" />
+  <path d="M16 42 Q 24 37 32 41" fill="none" stroke="url(#chartGrad)" stroke-width="1.5" stroke-dasharray="2,2" />
+</svg>

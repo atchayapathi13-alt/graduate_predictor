@@ -1,0 +1,16 @@
+{
+  "name": "graduate_predictor",
+  "version": "1.0.0",
+  "description": "An intelligent, responsive, multi-tiered full-stack web application designed for engineering colleges, academic mentors, and students to analyze student academic performance, technical skills, internship experiences, certifications, projects, and extracurricular participation to generate a **graduate outcome prediction and analytical decision dashboard**.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
