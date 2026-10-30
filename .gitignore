@@ -5,3 +5,6 @@
 /node_modules/
 /config/database.local.php
 *.log
+
+# Local Netlify folder
+.netlify
