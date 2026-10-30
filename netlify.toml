@@ -1,0 +1,76 @@
+[build]
+  publish = "."
+
+# The PHP app cannot run on Netlify. Send PHP routes to a notice page
+# instead of serving the raw source files as downloads.
+[[redirects]]
+  from = "/index.php"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/login.php"
+  to = "/portal-unavailable.html"
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "/register.php"
+  to = "/portal-unavailable.html"
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "/logout.php"
+  to = "/"
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "/student/*"
+  to = "/portal-unavailable.html"
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "/faculty/*"
+  to = "/portal-unavailable.html"
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "/admin/*"
+  to = "/portal-unavailable.html"
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "/api/*"
+  to = "/portal-unavailable.html"
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "/config/*"
+  to = "/404"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/classes/*"
+  to = "/404"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/includes/*"
+  to = "/404"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/tests/*"
+  to = "/404"
+  status = 404
+  force = true
